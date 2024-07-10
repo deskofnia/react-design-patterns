@@ -1,7 +1,7 @@
 import React from 'react'
 import { Alert } from './utils/Alert'
 import { Modal } from './utils/Modal';
-import { Card } from './utils/Card';
+import { Button, Card } from './utils/Card';
 
 const Composition = () => {
   return (
@@ -25,6 +25,11 @@ const Composition = () => {
       <div>
         <Card>
           <Card.Img src="" />
+          <Card.Body>
+            <Card.Title>Title</Card.Title>
+            <Card.Text>Hello</Card.Text>
+            <Button variant="primary"></Button>
+          </Card.Body>
         </Card>
       </div>
     </>
